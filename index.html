@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>札幌卓球練習会</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div id="header"></div>
+    <main>
+        <!-- ヒーローセクション -->
+        <section id="hero">
+            <div class="hero-content">
+                <h1>札幌でひとりで気軽に参加できる<br>卓球練習会・大会</h1>
+                <h2 id="hero-about">札幌卓球練習会とは・・・</h2>
+                <h2>１人だけど卓球を再開したい、もっとたくさん練習したい人むけの練習会です。</h2>
+                <p class="hero-description">
+                  平日１回、土日１回を目標に練習会を開催しています。<br>
+                  練習は5分交代で課題練習をします。それを参加者全員と行います。<br>
+                  遅れての参加や途中退室もOKですのでお気軽にご参加ください。
+                </p>
+                <div class="hero-video-wrapper">
+                  <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/XWGhUZ09f_I" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                  </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- 練習会案内 -->
+        <section id="practice-info">
+            <h2>練習会の案内</h2>
+            <div class="practice-info-list">
+                <p><strong>場所：</strong>中央区・東区・豊平区などの区民センター</p>
+                <p><strong>日時：</strong>平日金曜日１９時～２１時・土曜日９時～１２時が多いです</p>
+                <p><strong>参加費：</strong>500円</p>
+                <p><strong>対象者：</strong>ゲーム練習ができるかた（年齢制限はありません）</p>
+                <p><strong>参加方法：</strong>LINEオープンチャット</p>
+                <div class="join-steps-center">
+                    <p>1. LINEオープンチャットに参加する<br>
+                        <a href="https://t.co/GAa19JSPLx" target="_blank" class="line-link">https://t.co/GAa19JSPLx</a>
+                    </p>
+                    <p>2. オープンチャットの右上にある三本線をタップ</p>
+                    <img src="images/line1.png" alt="オープンチャット三本線" class="center-step-img">
+                    <p>3. イベントをタップ</p>
+                    <img src="images/line2.png" alt="イベントをタップ" class="center-step-img">
+                    <p>4. オープンチャットの右上にある三本線をタップ</p>
+                    <img src="images/line3.png" alt="再度三本線をタップ" class="center-step-img">
+                    <p>5. 参加をタップ ※参加するときのみボタンを押してください</p>
+                    <img src="images/line4.png" alt="参加をタップ" class="center-step-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- 大会案内 -->
+        <section id="tournament-info">
+            <h2>大会の案内</h2>
+            <img src="images/0727P4.png" alt="大会案内画像" class="tournament-img">
+            <p>申込は下記サイトから！<br>
+                <a href="https://p4match.com/game/game_detail.php?id=10162" target="_blank" class="line-link">https://p4match.com/game/game_detail.php?id=10162</a>
+            </p>
+            <div style="text-align:center; margin-top:2rem;">
+                <a href="gallery.html" class="cta-button">過去の開催実績・写真ギャラリーはこちら</a>
+            </div>
+        </section>
+
+
+        <!-- 主催者紹介 -->
+        <section id="organizer">
+            <h2>主催者紹介</h2>
+            <div class="organizer-content">
+              <img src="images/myprof.jpeg" alt="主催者画像" class="organizer-img">
+              <div class="organizer-text">
+                <p><strong>宮保</strong></p>
+                <p>出身：北海道十勝</p>
+                <p>年齢：平成７年生まれ 29歳</p>
+                <p>卓球歴：中学生から初めて途中でブランクが少しあり１５年程</p>
+                <p>戦型：右ペン粒</p>
+              </div>
+            </div>
+          </section>
+
+        <!-- 問い合わせ -->
+        <section id="contact">
+            <h2>問い合わせ</h2>
+            <div class="contact-content">
+                <p>お問い合わせは下記メールアドレスまでご連絡ください。</p>
+                <a href="mailto:htsmiya1025@gmail.com" class="mail-link">htsmiya1025@gmail.com</a>
+            </div>
+        </section>
+    </main>
+    <div id="footer"></div>
+    <script src="script.js"></script>
+    <div id="image-modal" class="image-modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modal-img" alt="拡大画像">
+    </div>
+</body>
+</html> 
