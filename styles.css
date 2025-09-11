@@ -75,6 +75,13 @@ nav.header-flex {
     color: #ffeb3b;
 }
 
+/* NEWバッジ */
+.badge-new {
+    color: #e60000;
+    font-weight: 700;
+    margin-left: 6px;
+}
+
 main {
     padding-top: 80px;
 }
