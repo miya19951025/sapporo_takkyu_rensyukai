@@ -272,6 +272,18 @@ main {
     box-shadow: 0 2px 8px rgba(33,150,243,0.10);
 }
 
+/* ギャラリーのfigureデフォルト余白をリセット */
+.gallery-images figure {
+    margin: 0;
+    text-align: center;
+}
+
+/* ギャラリー内の小見出し（リーグ名）を画像と揃えて中央寄せ */
+#gallery h4 {
+    text-align: center;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
 /* 問い合わせ */
 #contact {
     background: #e3f2fd;
