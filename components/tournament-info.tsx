@@ -12,7 +12,7 @@ export default function TournamentInfo() {
           </div>
 
           <div className="relative w-full max-w-md mx-auto mb-8 rounded-xl overflow-hidden shadow-lg">
-            <Image src="/images/20251026.png" alt="大会案内" width={600} height={800} className="w-full h-auto" />
+            <Image src="images/20251026.png" alt="大会案内" width={600} height={800} className="w-full h-auto" />
           </div>
 
           <div className="text-center space-y-6">

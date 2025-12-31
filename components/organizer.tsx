@@ -9,7 +9,7 @@ export default function Organizer() {
 
           <div className="flex flex-col sm:flex-row items-center gap-8">
             <div className="relative w-40 h-40 rounded-full overflow-hidden shadow-xl ring-4 ring-primary/20 flex-shrink-0">
-              <Image src="/images/myprof.jpeg" alt="主催者 宮保" fill className="object-cover" />
+              <Image src="images/myprof.jpeg" alt="主催者 宮保" fill className="object-cover" />
             </div>
 
             <div className="flex-1 space-y-4 text-center sm:text-left">

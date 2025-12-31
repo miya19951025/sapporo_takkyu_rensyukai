@@ -15,7 +15,7 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-3 group">
             <div className="relative h-14 flex items-center">
               <Image 
-                src="/images/sapporo-takkyu-rensyukai.jpg" 
+                src="images/sapporo-takkyu-rensyukai.jpg" 
                 alt="札幌卓球練習会" 
                 width={140} 
                 height={56} 

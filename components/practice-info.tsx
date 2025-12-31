@@ -55,7 +55,7 @@ export default function PracticeInfo() {
                   オープンチャットの右上にある三本線をタップ
                 </p>
                 <div className="relative w-full max-w-xs mx-auto aspect-[9/16] rounded-lg overflow-hidden shadow-md">
-                  <Image src="/images/line1.png" alt="オープンチャット三本線" fill className="object-contain" />
+                  <Image src="images/line1.png" alt="オープンチャット三本線" fill className="object-contain" />
                 </div>
               </div>
 
@@ -67,7 +67,7 @@ export default function PracticeInfo() {
                   イベントをタップ
                 </p>
                 <div className="relative w-full max-w-xs mx-auto aspect-[9/16] rounded-lg overflow-hidden shadow-md">
-                  <Image src="/images/line2.png" alt="イベントをタップ" fill className="object-contain" />
+                  <Image src="images/line2.png" alt="イベントをタップ" fill className="object-contain" />
                 </div>
               </div>
 
@@ -79,7 +79,7 @@ export default function PracticeInfo() {
                   オープンチャットの右上にある三本線をタップ
                 </p>
                 <div className="relative w-full max-w-xs mx-auto aspect-[9/16] rounded-lg overflow-hidden shadow-md">
-                  <Image src="/images/line3.png" alt="再度三本線をタップ" fill className="object-contain" />
+                  <Image src="images/line3.png" alt="再度三本線をタップ" fill className="object-contain" />
                 </div>
               </div>
 
@@ -92,7 +92,7 @@ export default function PracticeInfo() {
                 </p>
                 <p className="text-sm text-text-muted mb-4">※参加するときのみボタンを押してください</p>
                 <div className="relative w-full max-w-xs mx-auto aspect-[9/16] rounded-lg overflow-hidden shadow-md">
-                  <Image src="/images/line4.png" alt="参加をタップ" fill className="object-contain" />
+                  <Image src="images/line4.png" alt="参加をタップ" fill className="object-contain" />
                 </div>
               </div>
             </div>

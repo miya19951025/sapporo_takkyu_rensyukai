@@ -44,7 +44,7 @@ export default function Gallery() {
               onClick={() => openModal("/images/jyoui_syousai_20251026.jpg")}
             >
               <Image
-                src="/images/jyoui_syousai_20251026.jpg"
+                src="images/jyoui_syousai_20251026.jpg"
                 alt="上位トーナメント表彰"
                 fill
                 className="object-cover hover:scale-105 transition-transform"
@@ -60,7 +60,7 @@ export default function Gallery() {
                 onClick={() => openModal("/images/20251026_jyoui_1th.jpeg")}
               >
                 <Image
-                  src="/images/20251026_jyoui_1th.jpeg"
+                  src="images/20251026_jyoui_1th.jpeg"
                   alt="1位 杉山さん"
                   fill
                   className="object-cover hover:scale-105 transition-transform"
@@ -76,7 +76,7 @@ export default function Gallery() {
                 onClick={() => openModal("/images/20251026_jyoui_2th.jpeg")}
               >
                 <Image
-                  src="/images/20251026_jyoui_2th.jpeg"
+                  src="images/20251026_jyoui_2th.jpeg"
                   alt="2位 小松さん"
                   fill
                   className="object-cover hover:scale-105 transition-transform"
@@ -96,7 +96,7 @@ export default function Gallery() {
               onClick={() => openModal("/images/tyuui_syousai_20251026.jpg")}
             >
               <Image
-                src="/images/tyuui_syousai_20251026.jpg"
+                src="images/tyuui_syousai_20251026.jpg"
                 alt="中位トーナメント表彰"
                 fill
                 className="object-cover hover:scale-105 transition-transform"
@@ -112,7 +112,7 @@ export default function Gallery() {
                 onClick={() => openModal("/images/20251026_tyuui_1th.jpeg")}
               >
                 <Image
-                  src="/images/20251026_tyuui_1th.jpeg"
+                  src="images/20251026_tyuui_1th.jpeg"
                   alt="1位 奈良さん"
                   fill
                   className="object-cover hover:scale-105 transition-transform"
@@ -128,7 +128,7 @@ export default function Gallery() {
                 onClick={() => openModal("/images/20251026_tyuui_2th.jpeg")}
               >
                 <Image
-                  src="/images/20251026_tyuui_2th.jpeg"
+                  src="images/20251026_tyuui_2th.jpeg"
                   alt="2位 菊地さん"
                   fill
                   className="object-cover hover:scale-105 transition-transform"
@@ -148,7 +148,7 @@ export default function Gallery() {
               onClick={() => openModal("/images/kai_syousai_20251026.jpg")}
             >
               <Image
-                src="/images/kai_syousai_20251026.jpg"
+                src="images/kai_syousai_20251026.jpg"
                 alt="下位トーナメント表彰"
                 fill
                 className="object-cover hover:scale-105 transition-transform"
@@ -164,7 +164,7 @@ export default function Gallery() {
                 onClick={() => openModal("/images/20251026_kai_1th.jpeg")}
               >
                 <Image
-                  src="/images/20251026_kai_1th.jpeg"
+                  src="images/20251026_kai_1th.jpeg"
                   alt="1位 山脇さん"
                   fill
                   className="object-cover hover:scale-105 transition-transform"
@@ -180,7 +180,7 @@ export default function Gallery() {
                 onClick={() => openModal("/images/20251026_kai_2th.jpeg")}
               >
                 <Image
-                  src="/images/20251026_kai_2th.jpeg"
+                  src="images/20251026_kai_2th.jpeg"
                   alt="2位 西澤さん"
                   fill
                   className="object-cover hover:scale-105 transition-transform"
@@ -216,7 +216,7 @@ export default function Gallery() {
                 onClick={() => openModal("/images/29250913_1th.jpg")}
               >
                 <Image
-                  src="/images/29250913_1th.jpg"
+                  src="images/29250913_1th.jpg"
                   alt="1位 山内さん"
                   fill
                   className="object-cover hover:scale-105 transition-transform"
@@ -232,7 +232,7 @@ export default function Gallery() {
                 onClick={() => openModal("/images/20250913_2th.jpg")}
               >
                 <Image
-                  src="/images/20250913_2th.jpg"
+                  src="images/20250913_2th.jpg"
                   alt="2位 匿名希望さん"
                   fill
                   className="object-cover hover:scale-105 transition-transform"
@@ -269,7 +269,7 @@ export default function Gallery() {
                 onClick={() => openModal("/images/20250906_r1_1th.jpeg")}
               >
                 <Image
-                  src="/images/20250906_r1_1th.jpeg"
+                  src="images/20250906_r1_1th.jpeg"
                   alt="1位 杉山さん"
                   fill
                   className="object-cover hover:scale-105 transition-transform"
@@ -285,7 +285,7 @@ export default function Gallery() {
                 onClick={() => openModal("/images/20250906_r1_2th.jpeg")}
               >
                 <Image
-                  src="/images/20250906_r1_2th.jpeg"
+                  src="images/20250906_r1_2th.jpeg"
                   alt="2位 岩城さん"
                   fill
                   className="object-cover hover:scale-105 transition-transform"
