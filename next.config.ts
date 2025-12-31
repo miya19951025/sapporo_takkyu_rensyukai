@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   output: 'export',
   images: { unoptimized: true },
   trailingSlash: true,
-  assetPrefix: 'https://www.tt-sapporo.com',
+  assetPrefix: '/docs',
 };
 
 export default nextConfig;
