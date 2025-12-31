@@ -5,7 +5,7 @@ export default function Hero() {
     <section id="hero" className="relative min-h-[600px] flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <Image src="/images/practice.jpg" alt="卓球練習風景" fill className="object-cover" priority />
+        <Image src="images/practice.jpg" alt="卓球練習風景" fill className="object-cover" priority />
         <div className="absolute inset-0 bg-gradient-to-br from-primary/90 via-primary/80 to-primary-dark/90" />
       </div>
 

@@ -41,7 +41,7 @@ export default function Gallery() {
           <div className="mb-6">
             <div
               className="relative w-full max-w-md mx-auto aspect-[4/3] rounded-lg overflow-hidden shadow-md mb-4 cursor-pointer"
-              onClick={() => openModal("/images/jyoui_syousai_20251026.jpg")}
+              onClick={() => openModal("images/jyoui_syousai_20251026.jpg")}
             >
               <Image
                 src="images/jyoui_syousai_20251026.jpg"
@@ -57,7 +57,7 @@ export default function Gallery() {
             <div className="text-center">
               <div
                 className="relative w-full aspect-square rounded-lg overflow-hidden shadow-md mb-3 cursor-pointer"
-                onClick={() => openModal("/images/20251026_jyoui_1th.jpeg")}
+                onClick={() => openModal("images/20251026_jyoui_1th.jpeg")}
               >
                 <Image
                   src="images/20251026_jyoui_1th.jpeg"
@@ -73,7 +73,7 @@ export default function Gallery() {
             <div className="text-center">
               <div
                 className="relative w-full aspect-square rounded-lg overflow-hidden shadow-md mb-3 cursor-pointer"
-                onClick={() => openModal("/images/20251026_jyoui_2th.jpeg")}
+                onClick={() => openModal("images/20251026_jyoui_2th.jpeg")}
               >
                 <Image
                   src="images/20251026_jyoui_2th.jpeg"
@@ -93,7 +93,7 @@ export default function Gallery() {
           <div className="mb-6">
             <div
               className="relative w-full max-w-md mx-auto aspect-[4/3] rounded-lg overflow-hidden shadow-md mb-4 cursor-pointer"
-              onClick={() => openModal("/images/tyuui_syousai_20251026.jpg")}
+              onClick={() => openModal("images/tyuui_syousai_20251026.jpg")}
             >
               <Image
                 src="images/tyuui_syousai_20251026.jpg"
@@ -109,7 +109,7 @@ export default function Gallery() {
             <div className="text-center">
               <div
                 className="relative w-full aspect-square rounded-lg overflow-hidden shadow-md mb-3 cursor-pointer"
-                onClick={() => openModal("/images/20251026_tyuui_1th.jpeg")}
+                onClick={() => openModal("images/20251026_tyuui_1th.jpeg")}
               >
                 <Image
                   src="images/20251026_tyuui_1th.jpeg"
@@ -125,7 +125,7 @@ export default function Gallery() {
             <div className="text-center">
               <div
                 className="relative w-full aspect-square rounded-lg overflow-hidden shadow-md mb-3 cursor-pointer"
-                onClick={() => openModal("/images/20251026_tyuui_2th.jpeg")}
+                onClick={() => openModal("images/20251026_tyuui_2th.jpeg")}
               >
                 <Image
                   src="images/20251026_tyuui_2th.jpeg"
@@ -145,7 +145,7 @@ export default function Gallery() {
           <div className="mb-6">
             <div
               className="relative w-full max-w-md mx-auto aspect-[4/3] rounded-lg overflow-hidden shadow-md mb-4 cursor-pointer"
-              onClick={() => openModal("/images/kai_syousai_20251026.jpg")}
+              onClick={() => openModal("images/kai_syousai_20251026.jpg")}
             >
               <Image
                 src="images/kai_syousai_20251026.jpg"
@@ -161,7 +161,7 @@ export default function Gallery() {
             <div className="text-center">
               <div
                 className="relative w-full aspect-square rounded-lg overflow-hidden shadow-md mb-3 cursor-pointer"
-                onClick={() => openModal("/images/20251026_kai_1th.jpeg")}
+                onClick={() => openModal("images/20251026_kai_1th.jpeg")}
               >
                 <Image
                   src="images/20251026_kai_1th.jpeg"
@@ -177,7 +177,7 @@ export default function Gallery() {
             <div className="text-center">
               <div
                 className="relative w-full aspect-square rounded-lg overflow-hidden shadow-md mb-3 cursor-pointer"
-                onClick={() => openModal("/images/20251026_kai_2th.jpeg")}
+                onClick={() => openModal("images/20251026_kai_2th.jpeg")}
               >
                 <Image
                   src="images/20251026_kai_2th.jpeg"
@@ -213,7 +213,7 @@ export default function Gallery() {
             <div className="text-center">
               <div
                 className="relative w-full aspect-square rounded-lg overflow-hidden shadow-md mb-3 cursor-pointer"
-                onClick={() => openModal("/images/29250913_1th.jpg")}
+                onClick={() => openModal("images/29250913_1th.jpg")}
               >
                 <Image
                   src="images/29250913_1th.jpg"
@@ -229,7 +229,7 @@ export default function Gallery() {
             <div className="text-center">
               <div
                 className="relative w-full aspect-square rounded-lg overflow-hidden shadow-md mb-3 cursor-pointer"
-                onClick={() => openModal("/images/20250913_2th.jpg")}
+                onClick={() => openModal("images/20250913_2th.jpg")}
               >
                 <Image
                   src="images/20250913_2th.jpg"
@@ -266,7 +266,7 @@ export default function Gallery() {
             <div className="text-center">
               <div
                 className="relative w-full aspect-square rounded-lg overflow-hidden shadow-md mb-3 cursor-pointer"
-                onClick={() => openModal("/images/20250906_r1_1th.jpeg")}
+                onClick={() => openModal("images/20250906_r1_1th.jpeg")}
               >
                 <Image
                   src="images/20250906_r1_1th.jpeg"
@@ -282,7 +282,7 @@ export default function Gallery() {
             <div className="text-center">
               <div
                 className="relative w-full aspect-square rounded-lg overflow-hidden shadow-md mb-3 cursor-pointer"
-                onClick={() => openModal("/images/20250906_r1_2th.jpeg")}
+                onClick={() => openModal("images/20250906_r1_2th.jpeg")}
               >
                 <Image
                   src="images/20250906_r1_2th.jpeg"
@@ -303,10 +303,10 @@ export default function Gallery() {
             <div className="text-center">
               <div
                 className="relative w-full aspect-square rounded-lg overflow-hidden shadow-md mb-3 cursor-pointer"
-                onClick={() => openModal("/images/20250906_r2_1th.jpeg")}
+                onClick={() => openModal("images/20250906_r2_1th.jpeg")}
               >
                 <Image
-                  src="/images/20250906_r2_2th.jpeg"
+                  src="images/20250906_r2_2th.jpeg"
                   alt="1位 奈良さん"
                   fill
                   className="object-cover hover:scale-105 transition-transform"
@@ -319,10 +319,10 @@ export default function Gallery() {
             <div className="text-center">
               <div
                 className="relative w-full aspect-square rounded-lg overflow-hidden shadow-md mb-3 cursor-pointer"
-                onClick={() => openModal("/images/20250906_r2_2th.jpeg")}
+                onClick={() => openModal("images/20250906_r2_2th.jpeg")}
               >
                 <Image
-                  src="/images/20250906_r2_2th.jpeg"
+                  src="images/20250906_r2_2th.jpeg"
                   alt="2位 小山さん"
                   fill
                   className="object-cover hover:scale-105 transition-transform"
