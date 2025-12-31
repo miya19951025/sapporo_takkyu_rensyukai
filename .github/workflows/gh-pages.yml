@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - sapporo_takkyu_rensyukai_next
 
 permissions:
   contents: write
