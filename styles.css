@@ -212,6 +212,64 @@ main {
     color: #1976d2;
 }
 
+/* よくある質問 */
+#faq {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(33,150,243,0.06);
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2.5rem 1.5rem;
+    text-align: left;
+}
+
+#faq h2 {
+    color: #1976d2;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.faq-item {
+    border: 1px solid #e3f2fd;
+    border-radius: 10px;
+    margin-bottom: 0.8rem;
+    background: #f7fbff;
+    overflow: hidden;
+}
+
+.faq-item summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 1rem 2.4rem 1rem 1.2rem;
+    font-weight: bold;
+    color: #1976d2;
+    position: relative;
+}
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-item summary::after {
+    content: '＋';
+    position: absolute;
+    right: 1.2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #2196f3;
+    font-weight: bold;
+}
+
+.faq-item[open] summary::after {
+    content: '−';
+}
+
+.faq-item p {
+    margin: 0;
+    padding: 0 1.2rem 1.1rem 1.2rem;
+    line-height: 1.7;
+}
+
 /* 主催者紹介 */
 #organizer {
     background: #e3f2fd;
