@@ -1,37 +1,39 @@
 // スムーズスクロール
-
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        const href = this.getAttribute('href');
-        if (href.startsWith('#') && href.length > 1) {
-            e.preventDefault();
-            const target = document.querySelector(href);
-            if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
+function setupSmoothScroll() {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            const href = this.getAttribute('href');
+            if (href.startsWith('#') && href.length > 1) {
+                e.preventDefault();
+                const target = document.querySelector(href);
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
             }
-        }
-    });
-});
-
-// ハンバーガーメニュー開閉
-const hamburger = document.querySelector('.hamburger');
-const navLinks = document.querySelector('.nav-links');
-
-if (hamburger && navLinks) {
-    hamburger.addEventListener('click', () => {
-        hamburger.classList.toggle('active');
-        navLinks.classList.toggle('active');
-    });
-    // メニュークリックで自動的に閉じる
-    navLinks.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', () => {
-            hamburger.classList.remove('active');
-            navLinks.classList.remove('active');
         });
     });
+}
+
+// ハンバーガーメニュー開閉
+function setupHamburger() {
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    if (hamburger && navLinks) {
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+        // メニュークリックで自動的に閉じる
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+    }
 }
 
 // 画像拡大モーダル
@@ -63,55 +65,8 @@ function setupImageModal() {
     });
 }
 
-// 共通ヘッダー・フッターの読み込み
-function loadCommonParts() {
-    // ヘッダー
-    fetch('header.html')
-        .then(res => res.text())
-        .then(html => {
-            document.getElementById('header').innerHTML = html;
-            setupHamburger();
-        });
-    // フッター
-    fetch('footer.html')
-        .then(res => res.text())
-        .then(html => {
-            document.getElementById('footer').innerHTML = html;
-        });
-}
-
-// ハンバーガーメニューのセットアップ（header読み込み後用）
-function setupHamburger() {
-    const hamburger = document.querySelector('.hamburger');
-    const navLinks = document.querySelector('.nav-links');
-    if (hamburger && navLinks) {
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navLinks.classList.toggle('active');
-        });
-        navLinks.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-                hamburger.classList.remove('active');
-                navLinks.classList.remove('active');
-            });
-        });
-    }
-}
-
 document.addEventListener('DOMContentLoaded', function() {
-    // ヘッダー
-    fetch("header.html")
-        .then(res => res.text())
-        .then(data => {
-            document.getElementById("header").innerHTML = data;
-            setupHamburger();
-        });
-
-    // フッター
-    fetch("footer.html")
-        .then(res => res.text())
-        .then(data => {
-            document.getElementById("footer").innerHTML = data;
-        });
+    setupSmoothScroll();
+    setupHamburger();
     setupImageModal();
-}); 
+});
