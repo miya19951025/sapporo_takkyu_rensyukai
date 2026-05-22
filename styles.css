@@ -593,6 +593,20 @@ section {
   margin-top: 1em;
 }
 
+.join-steps-center p {
+  text-align: center;
+}
+
+.oc-qr-img {
+  display: block;
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  margin: 0.5rem auto 1.5rem auto;
+  border-radius: 8px;
+  background: #fff;
+}
+
 .center-step-img {
   max-width: 300px;
   width: 100%;
