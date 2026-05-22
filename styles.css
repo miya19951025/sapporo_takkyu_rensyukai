@@ -129,6 +129,13 @@ main {
     letter-spacing: 0.05em;
 }
 
+.hero-content .hero-lead {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0.83em 0;
+}
+
 .hero-img {
     width: 220px;
     height: 140px;
