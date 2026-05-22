@@ -191,6 +191,7 @@ main {
     display: block;
     width: 100%;
     max-width: 400px;
+    height: auto;
     margin: 0.5rem auto 1rem auto;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(33,150,243,0.10);
